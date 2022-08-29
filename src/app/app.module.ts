@@ -8,13 +8,15 @@ import {NgbPaginationModule, NgbAlertModule} from '@ng-bootstrap/ng-bootstrap';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { NavBarComponent } from './common/nav-bar/nav-bar.component';
 import { TopBarComponent } from './common/top-bar/top-bar.component';
+import { PizzaMenuSelectComponent } from './common/pizza-menu-select/pizza-menu-select.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
     NavBarComponent,
-    TopBarComponent
+    TopBarComponent,
+    PizzaMenuSelectComponent
   ],
   imports: [
     BrowserModule,
